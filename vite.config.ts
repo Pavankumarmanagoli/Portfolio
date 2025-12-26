@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: "https://github.com/Pavankumarmanagoli/Portfolio.git",
+  base: "/Portfolio/",
 });
