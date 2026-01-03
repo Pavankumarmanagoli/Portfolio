@@ -16,7 +16,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       period: 'Jan 2025 - Dec 2025',
        logo: iiterateLogoImg,
       description: 'I worked on developing practical AI solutions with a strong focus on usability and real-world impact. I led the development and deployment of RegioWizard KI, a Retrieval-Augmented Generation chatbot built on AW-Wiki data, designed to help users explore information about the Ahrweiler region through natural, conversational interaction. I also contributed to RadReport AI, a multimodal system to generate structured, clinically relevant summaries from chest X-ray images. These projects allowed me to work closely with stakeholders and cross-functional teams, ensuring that technical decisions aligned with project goals and that the final solutions were both reliable and user-focused.',
-      highlights: ['Python', 'RAG', 'NLP', 'PyTorch'],
+      highlights: ['Python', 'RAG', 'NLP', 'PyTorch', 'Docker'],
       companyUrl: 'https://www.iiterate.de/',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
