@@ -12,11 +12,11 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
   const experiences = [
     {
       company: 'iiterate Technologies GmbH',
-      position: 'AI Developer (Intern)',
+      position: 'Data Scientist (Intern)',
       period: 'Jan 2025 - Dec 2025',
        logo: iiterateLogoImg,
-      description: 'I worked on developing practical AI solutions with a strong focus on usability and real-world impact. I led the development and deployment of RegioWizard KI, a Retrieval-Augmented Generation chatbot built on AW-Wiki data, designed to help users explore information about the Ahrweiler region through natural, conversational interaction. I also contributed to RadReport AI, a multimodal system to generate structured, clinically relevant summaries from chest X-ray images. These projects allowed me to work closely with stakeholders and cross-functional teams, ensuring that technical decisions aligned with project goals and that the final solutions were both reliable and user-focused.',
-      highlights: ['Python', 'RAG', 'NLP', 'PyTorch', 'Docker'],
+      description: 'During my internship at iiterate Technologies GmbH, I developed a Retrieval-Augmented Generation (RAG) system for a regional knowledge portal, transforming REST API content into a structured knowledge base stored in MongoDB to enable semantic search and question answering. I implemented the retrieval pipeline in Python using LangChain, OpenAI embeddings, and FAISS, optimizing chunking strategies and retrieval parameters to improve response relevance. To ensure system reliability, I designed an evaluation framework using RAGAS and DeepEval, improving faithfulness from 0.61 to 0.84 and relevance from 0.67 to 0.89 through metric-driven optimization. I also built a Streamlit interface for real-time interaction and deployed the containerized application on AWS (ECR/EC2) using Docker and GitHub Actions CI/CD. In addition, I contributed to ETL pipelines for a multimodal AI project, preparing structured datasets from medical documents and imaging data stored in AWS S3..',
+      highlights: ['Python', 'NoSQL', 'RAG', 'LLM', 'NLP', 'PyTorch', 'AWS', 'Docker'],
       companyUrl: 'https://www.iiterate.de/',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
@@ -35,8 +35,8 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       position: 'Data Analyst',
       period: 'Jan 2023 - Aug 2023',
       logo: 'https://hcltech.imgix.net/sites/default/files/images/hcltech-logo.webp?upscale=true',
-      description: 'I was responsible for analyzing and improving the performance of IT infrastructure systems across multiple global locations. I worked closely with cross-functional teams to monitor data from firewalls, switches, servers, and access points, helping reduce downtime and enhance system reliability. I built and automated data pipelines to collect and transform device logs, ensuring consistent and high-quality data for analysis. Using CMDB data, I applied clustering techniques and Random Forest models to identify failure patterns and high-risk assets, enabling proactive maintenance decisions. I also collaborated with infrastructure and vendor teams to streamline asset replacement workflows, contributing to smoother operations and overall efficiency.',
-      highlights: ['Python', 'SQL', 'ML', 'ETL', 'Jira'],
+      description: 'Working with a US-based e-commerce client at HCL Technologies, I focused on transforming complex operational data into meaningful business insights. I maintained and improved ETL pipelines that integrated ERP, CRM, and logistics data into centralized analytics systems. I developed dbt models on Snowflake to standardize KPI calculations and ensure reliable reporting across teams. Using Python and SQL, I analyzed large datasets to evaluate marketing campaigns and identify revenue drivers. I also built Tableau dashboards that visualized revenue trends, fulfillment performance, and customer behavior, enabling stakeholders to make data-driven strategic decisions.',
+      highlights: ['Python', 'SQL', 'ETL', 'Tableau', 'Snowflake', 'dbt'],
       companyUrl: 'https://www.hcltech.com/de-de',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
@@ -45,17 +45,17 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       position: 'Data Analyst',
       period: 'Dec 2021 - Jan 2023',
       logo: grayradiantLogoImg,
-      description: 'I collaborated with the BI team to build Power BI dashboards for a logistics client, providing real-time visibility into fleet performance. I also contribbuted to design and refin data models  and develop DAX measures to track fleet utilization, delivery delays, and fuel efficiency across different regions. To ensure reliability at scale, I automated data refreshes in Power BI Service using Incremental Refresh, improving both performance and daily data accuracy. Working in an Agile environment, I participated in sprint planning, KPI documentation, and regular coordination with cross-functional teams to deliver clear, actionable insights for operations.',
-      highlights: ['Python', 'MSSQL', 'PowerBI', 'Jira', 'Confluence'],
+      description: 'I worked as a Data Analyst where I built scalable ETL pipelines to integrate data from multiple operational systems into a centralized analytics environment. I automated data ingestion workflows using Power Automate and Azure Data Factory, improving data availability and reducing manual processing. Using Databricks and PySpark, I performed large-scale data transformations including cleaning, normalization, and deduplication to ensure data quality. I also designed interactive BI dashboards that visualized key logistics KPIs, enabling stakeholders to monitor operational performance and make data-driven decisions. My work focused on building reliable data pipelines and analytical models that supported efficient reporting and business insights.',
+      highlights: ['Python', ' PostgreSQL ', 'PowerBI', 'Azure', 'Power Automate'],
       companyUrl: 'https://graysonsolutions.net/index.html',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
     {
       company: 'Zebo.AI',
       position: 'AI/ML Intern',
-      period: 'Mar 2021 - Aug 2021',
+      period: 'Apr 2021 - Jul 2021',
       logo: zeboAiLogoImg,
-      description: 'I worked within a team to develop an end-to-end machine learning pipeline using pandas and scikit-learn to analyze applicant informations and predict loan approval outcomes, working with models such as Naive Bayes, KNN, and Logistic Regression to compare performance. I also contributed to develop a Neural Network, to classify “mask” and “without_mask” images using OpenCv. These projects strengthened my understanding of data preprocessing, feature engineering, and model evaluation across both structured datasets and text-based inputs.',
+      description: 'I worked within a team to develop an end-to-end data pipeline, to classify “mask” and “without_mask” images using OpenCv with live webcam video feed with overlayed labels. This projects strengthened my understanding of data preprocessing, feature engineering, and model evaluation across both structured datasets and image-based inputs.',
       highlights: ['Python', 'ML', 'CNN', 'OpenCv'],
       color: 'bg-gradient-br from-gray-300 to-white-600'
     }

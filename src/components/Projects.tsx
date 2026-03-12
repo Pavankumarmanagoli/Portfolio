@@ -15,18 +15,18 @@ export default function Projects() {
       image: stosImage
     },
     {
-      title: 'RAG-Based AI Chatbot',
-      description: 'The application exposes two interaction modes: a general knowledge assistant powered by Groqs Llama model and a document-aware assistant that answers questions from a supplied PDF',
-      tags: ['Python', 'LangChain', 'Streamlit'],
+      title: 'NeuroHire : Neural Semantic Matching Protocol for Real Time Job Interoperability',
+      description: 'The system uses LLM-based semantic analysis to summarize resumes and match candidate profiles with relevant job opportunities in real time.',
+      tags: ['Python', 'LLMs', 'LangChain', 'NLP', 'API Integration', 'Streamlit'],
       image: ragAiImage,
-      github: 'https://github.com/Pavankumarmanagoli/RAG-Based-AI-Chatbot-for-General-and-Domain-Specific-Queries'
+      github: 'https://github.com/Pavankumarmanagoli/NeuroHire_Neural-Semantic-Matching-Protocol-for-Real-Time-Job-Interoperability'
     },
     {
-      title: 'Customer Churn Prediction',
-      description: 'The project explores a public dataset of 7,043 California customers, performing exploratory analysis, feature engineering, and training several classification algorithms to uncover patterns behind customer loyalty.',
-      tags: ['Python', 'Data Visualisation', 'Scikit-Learn'],
+      title: 'Airflow Sales ETL Pipeline',
+      description: 'Designed a workflow-based ETL system with Apache Airflow to convert raw sales data into a structured warehouse supporting business analytics.',
+      tags: ['Python', 'Apache Airflow', 'SQL', 'Docker', 'Data Warehousing', 'Scikit-Learn'],
       image: customerChurnImage,
-      github: 'https://github.com/Pavankumarmanagoli/Customer-Churn-Prediction'
+      github: 'https://github.com/Pavankumarmanagoli/Airflow-Sales-ETL-Pipeline'
     },
     {
       title: 'Customer Segmentation for Retail E-Commerce',

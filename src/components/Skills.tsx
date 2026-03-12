@@ -28,6 +28,17 @@ export default function Skills() {
       // ]
     },
     {
+      title: 'NoSQL',
+      logo: 'src/components/NoSQL.png'
+      // skills: [
+      //   { name: 'Node.js', level: 90 },
+      //   { name: 'PostgreSQL', level: 85 },
+      //   { name: 'REST APIs', level: 92 },
+      //   { name: 'GraphQL', level: 80 },
+      //   { name: 'Supabase', level: 88 }
+      // ]
+    },
+    {
       title: 'Power BI',
        logo: powerBiLogo
       // skills: [
@@ -39,8 +50,8 @@ export default function Skills() {
       // ]
     },
     {
-      title: 'Excel',
-      logo: 'https://cdn-icons-png.flaticon.com/512/732/732220.png'
+      title: 'Statistics',
+      logo: statsLogo
       // skills: [
       //   { name: 'Git', level: 95 },
       //   { name: 'Docker', level: 80 },
@@ -50,8 +61,63 @@ export default function Skills() {
       // ]
     },
     {
-      title: 'Statistics',
-      logo: statsLogo
+      title: 'DBT',
+      logo: 'src/components/DBT.png'
+      // skills: [
+      //   { name: 'Node.js', level: 90 },
+      //   { name: 'PostgreSQL', level: 85 },
+      //   { name: 'REST APIs', level: 92 },
+      //   { name: 'GraphQL', level: 80 },
+      //   { name: 'Supabase', level: 88 }
+      // ]
+    },
+    {
+      title: 'ETL',
+       logo: 'src/components/ETL3.png'
+      // skills: [
+      //   { name: 'Git', level: 95 },
+      //   { name: 'Docker', level: 80 },
+      //   { name: 'Jira', level: 75 },
+      //   { name: 'Confluence', level: 85 },
+      //   { name: 'CI/CD', level: 82 }
+      // ]
+    },
+    {
+      title: 'Snowflake',
+      logo: snowflakeLogo
+      // skills: [
+      //   { name: 'Git', level: 95 },
+      //   { name: 'Docker', level: 80 },
+      //   { name: 'Jira', level: 75 },
+      //   { name: 'Confluence', level: 85 },
+      //   { name: 'CI/CD', level: 82 }
+      // ]
+    },
+    {
+      title: 'Airflow',
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg'
+      // skills: [
+      //   { name: 'Git', level: 95 },
+      //   { name: 'Docker', level: 80 },
+      //   { name: 'Jira', level: 75 },
+      //   { name: 'Confluence', level: 85 },
+      //   { name: 'CI/CD', level: 82 }
+      // ]
+    },
+    {
+      title: 'PySpark',
+      logo: 'src/components/PySpark.png'
+      // skills: [
+      //   { name: 'Git', level: 95 },
+      //   { name: 'Docker', level: 80 },
+      //   { name: 'Jira', level: 75 },
+      //   { name: 'Confluence', level: 85 },
+      //   { name: 'CI/CD', level: 82 }
+      // ]
+    },
+    {
+      title: 'Azure',
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg'
       // skills: [
       //   { name: 'Git', level: 95 },
       //   { name: 'Docker', level: 80 },
@@ -94,8 +160,9 @@ export default function Skills() {
       // ]
     },
     {
-      title: 'Snowflake',
-      logo: snowflakeLogo
+      title: 'AI Agent',
+      logo: 'src/components/AIagent.png',
+      size: 80
       // skills: [
       //   { name: 'Git', level: 95 },
       //   { name: 'Docker', level: 80 },
@@ -105,8 +172,8 @@ export default function Skills() {
       // ]
     },
     {
-      title: 'Airflow',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg'
+      title: 'Docker',
+      logo: 'src/components/docker.jpg'
       // skills: [
       //   { name: 'Git', level: 95 },
       //   { name: 'Docker', level: 80 },
@@ -116,8 +183,8 @@ export default function Skills() {
       // ]
     },
     {
-      title: 'Azure',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg'
+      title: 'GitLab',
+      logo: 'src/components/gitlab.svg'
       // skills: [
       //   { name: 'Git', level: 95 },
       //   { name: 'Docker', level: 80 },
@@ -127,9 +194,16 @@ export default function Skills() {
       // ]
     },
     {
-       title: 'Git',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg'
-    }
+      title: 'Power Automate',
+      logo: 'src/components/PALogo.png'
+      // skills: [
+      //   { name: 'Git', level: 95 },
+      //   { name: 'Docker', level: 80 },
+      //   { name: 'Jira', level: 75 },
+      //   { name: 'Confluence', level: 85 },
+      //   { name: 'CI/CD', level: 82 }
+      // ]
+    },
   ];
 
   return (
