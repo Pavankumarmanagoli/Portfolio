@@ -3,206 +3,89 @@ import statsLogo from './statistics-business-logo.jpg';
 import mlLogo from './ai-brain-logo-neural-network-vector-60853429.avif';
 import snowflakeLogo from './snow.png';
 
+import noSqlLogo from './NoSQL.png';
+import dbtLogo from './DBT.png';
+import etlLogo from './ETL3.png';
+import pySparkLogo from './PySpark.png';
+import aiAgentLogo from './AIagent.png';
+import dockerLogo from './docker.jpg';
+import gitlabLogo from './gitlab.svg';
+import powerAutomateLogo from './PALogo.png';
+
 export default function Skills() {
   const skillCategories = [
     {
       title: 'Python',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
-      // skills: [
-      //   { name: 'React', level: 95 },
-      //   { name: 'TypeScript', level: 90 },
-      //   { name: 'Tailwind CSS', level: 95 },
-      //   { name: 'Next.js', level: 85 },
-      //   { name: 'HTML/CSS', level: 98 }
-      // ]
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
     },
     {
       title: 'SQL',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
-      // skills: [
-      //   { name: 'Node.js', level: 90 },
-      //   { name: 'PostgreSQL', level: 85 },
-      //   { name: 'REST APIs', level: 92 },
-      //   { name: 'GraphQL', level: 80 },
-      //   { name: 'Supabase', level: 88 }
-      // ]
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
     },
     {
       title: 'NoSQL',
-      logo: 'src/components/NoSQL.png'
-      // skills: [
-      //   { name: 'Node.js', level: 90 },
-      //   { name: 'PostgreSQL', level: 85 },
-      //   { name: 'REST APIs', level: 92 },
-      //   { name: 'GraphQL', level: 80 },
-      //   { name: 'Supabase', level: 88 }
-      // ]
+      logo: noSqlLogo,
     },
     {
       title: 'Power BI',
-       logo: powerBiLogo
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: powerBiLogo,
     },
     {
       title: 'Statistics',
-      logo: statsLogo
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: statsLogo,
     },
     {
       title: 'DBT',
-      logo: 'src/components/DBT.png'
-      // skills: [
-      //   { name: 'Node.js', level: 90 },
-      //   { name: 'PostgreSQL', level: 85 },
-      //   { name: 'REST APIs', level: 92 },
-      //   { name: 'GraphQL', level: 80 },
-      //   { name: 'Supabase', level: 88 }
-      // ]
+      logo: dbtLogo,
     },
     {
       title: 'ETL',
-       logo: 'src/components/ETL3.png'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: etlLogo,
     },
     {
       title: 'Snowflake',
-      logo: snowflakeLogo
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: snowflakeLogo,
     },
     {
       title: 'Airflow',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg',
     },
     {
       title: 'PySpark',
-      logo: 'src/components/PySpark.png'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: pySparkLogo,
     },
     {
       title: 'Azure',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
     },
     {
       title: 'Machine Learning',
-      logo: mlLogo
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: mlLogo,
     },
     {
       title: 'NLP',
-       logo: 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png',
     },
     {
       title: 'RAG',
-      logo: 'https://cdn-icons-png.flaticon.com/512/4712/4712100.png'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: 'https://cdn-icons-png.flaticon.com/512/4712/4712100.png',
     },
     {
       title: 'AI Agent',
-      logo: 'src/components/AIagent.png',
-      size: 80
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: aiAgentLogo,
+      size: 80,
     },
     {
       title: 'Docker',
-      logo: 'src/components/docker.jpg'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: dockerLogo,
     },
     {
       title: 'GitLab',
-      logo: 'src/components/gitlab.svg'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: gitlabLogo,
     },
     {
       title: 'Power Automate',
-      logo: 'src/components/PALogo.png'
-      // skills: [
-      //   { name: 'Git', level: 95 },
-      //   { name: 'Docker', level: 80 },
-      //   { name: 'Jira', level: 75 },
-      //   { name: 'Confluence', level: 85 },
-      //   { name: 'CI/CD', level: 82 }
-      // ]
+      logo: powerAutomateLogo,
     },
   ];
 
@@ -221,37 +104,24 @@ export default function Skills() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {skillCategories.map((category, categoryIndex) => (
-             <div
+              <div
                 key={categoryIndex}
                 className="bg-white p-5 rounded-2xl shadow-lg hover:shadow-xl transition-shadow text-center"
               >
                 <img
                   src={category.logo}
                   alt={`${category.title} logo`}
-                  className="w-12 h-12 mb-4 mx-auto"
+                  className="mb-4 mx-auto object-contain"
+                  style={{
+                    width: `${category.size || 48}px`,
+                    height: `${category.size || 48}px`,
+                  }}
                 />
-              
+
                 <h3 className="text-3xl font-bold text-gray-900">
                   {category.title}
                 </h3>
-
-                {/* <div className="space-y-5"> */}
-                  {/* {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex}>
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="font-medium text-gray-900">{skill.name}</span>
-                        <span className="text-base text-gray-600">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
-                        <div
-                          className="bg-blue-600 h-2 rounded-full transition-all duration-1000 ease-out"
-                          style={{ width: `${skill.level}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  ))} */}
-                {/* </div> */}
-               </div>
+              </div>
             ))}
           </div>
         </div>
