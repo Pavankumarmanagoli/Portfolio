@@ -1,4 +1,5 @@
 import { ExternalLink, Building2, Calendar, ArrowLeft } from 'lucide-react';
+import NCSchultzllcLogoImg from '../components/NC-Schultz-llc.jpg';
 import iiterateLogoImg from '../components/iiterate.png';
 import renolitLogoImg from '../components/logo-renolit-corretto.png';
 import grayradiantLogoImg from '../components/grayradiant.png';
@@ -10,6 +11,15 @@ interface ExperiencePageProps {
 
 export default function ExperiencePage({ onBack }: ExperiencePageProps) {
   const experiences = [
+    {
+      company: 'N.C Schultz LLC',
+      position: 'AI Engineer (Intern)',
+      period: 'Apr 2026 - Present',
+       logo: NCSchultzllcLogoImg,
+      description:'As an AI Engineer, I build an internal AI system for a financial services business with over 18,700 leads. I develop multiple AI agents that automatically research leads, score and categorize them, prepare personalized outreach messages, and check content for compliance. I work closely with the business owner to find where manual work slows the team down and and automate those repetitive steps with simple, practical AI solutions, so the team can focus on calls and relationships instead of repetitive tasks.',
+      highlights: ['AI Agents', 'Workflow Automation', 'LLM', 'Prompt Engineering', 'Python', 'Generative AI'],
+      color: 'bg-gradient-br from-gray-300 to-white-600'
+    },
     {
       company: 'iiterate Technologies GmbH',
       position: 'Data Scientist (Intern)',
