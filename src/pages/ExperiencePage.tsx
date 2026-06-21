@@ -15,7 +15,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       company: 'N.C Schultz LLC',
       position: 'AI Engineer (Intern)',
       period: 'Apr 2026 - Present',
-       logo: NCSchultzllcLogoImg,
+      logo: NCSchultzllcLogoImg,
       description:'As an AI Engineer, I build an internal AI system for a financial services business with over 18,700 leads. I develop multiple AI agents that automatically research leads, score and categorize them, prepare personalized outreach messages, and check content for compliance. I work closely with the business owner and key stakeholders, to find where manual work slows the team down and and automate those repetitive steps with simple, practical AI solutions, so the team can focus on calls and relationships instead of repetitive tasks.',
       highlights: ['Python','AI Agents', 'Workflow Automation', 'LLM', 'Prompt Engineering','Generative AI'],
       color: 'bg-gradient-br from-gray-300 to-white-600'
@@ -24,7 +24,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       company: 'iiterate Technologies GmbH',
       position: 'AI Engineer (Intern)',
       period: 'Jan 2025 - Dec 2025',
-       logo: iiterateLogoImg,
+      logo: iiterateLogoImg,
       description: 'During my internship at iiterate Technologies GmbH, I developed a Retrieval-Augmented Generation (RAG) system for a regional knowledge portal, transforming REST API content into a structured knowledge base stored in MongoDB to enable semantic search and question answering. I implemented the retrieval pipeline in Python using LangChain, OpenAI embeddings, and FAISS, optimizing chunking strategies and retrieval parameters to improve response relevance. To ensure system reliability, I designed an evaluation framework using RAGAS and DeepEval, improving faithfulness from 0.61 to 0.84 and relevance from 0.67 to 0.89 through metric-driven optimization. I also built a Streamlit interface for real-time interaction and deployed the containerized application on AWS (ECR/EC2) using Docker and GitHub Actions CI/CD. In addition, I contributed to ETL pipelines for a multimodal AI project, preparing structured datasets from medical documents and imaging data stored in AWS S3.',
       highlights: ['Python', 'NoSQL', 'RAG', 'LLM', 'NLP', 'PyTorch', 'AWS', 'Docker', 'Generative AI'],
       companyUrl: 'https://www.iiterate.de/',
@@ -34,7 +34,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       company: 'Renolit (In collaboration with SRH University Heidelberg)',
       position: 'Research student',
       period: 'Apr 2024 - Sept 2024',
-       logo: renolitLogoImg,
+      logo: renolitLogoImg,
       description: 'This case study focused on improving quality control in plastic roll manufacturing at RENOLIT using production sensor and MES data. An unsupervised machine learning model was used to learn normal production behavior and flag abnormal patterns automatically. A supervised model was then applied to verify these anomalies and identify the main factors causing defects. All results were presented through a real-time dashboard for operational use.',
       highlights: ['Python', 'EDA', 'Anamoly detection', 'ML', 'Streamlit'],
       companyUrl: 'https://www.renolit.com/de/',
@@ -83,12 +83,12 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
         </button>
 
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight mb-3 sm:mb-4 md:mb-6">
             Professional Experience
           </h1>
           <div className="w-12 sm:w-16 md:w-20 h-1 bg-blue-600 mb-6 sm:mb-8 md:mb-12"></div>
 
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 mb-8 sm:mb-12 lg:mb-16 text-justify leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 mb-8 sm:mb-12 lg:mb-16 text-left sm:text-justify leading-relaxed">
             Around 3+ years of professional experience, working with cutting-edge technologies
             and collaborating with talented teams to deliver exceptional digital solutions.
           </p>
@@ -107,8 +107,8 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
                   <div className="absolute bottom-0 left-0 w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 bg-white/10 rounded-full -ml-10 sm:-ml-12 md:-ml-16 -mb-10 sm:-mb-12 md:-mb-16 group-hover:scale-125 transition-transform duration-300"></div>
 
                   <div className="relative z-10">
-                    <div className="flex flex-row items-center justify-between gap-2 sm:gap-3 md:gap-4 mb-2 sm:mb-3 md:mb-4">
-                      <div className="flex items-center gap-2 sm:gap-3 md:gap-4 flex-1">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 md:gap-4 mb-3 md:mb-4">
+                      <div className="flex items-center gap-2 sm:gap-3 md:gap-4 flex-1 min-w-0">
                         <div className="flex-shrink-0">
                           {exp.logo ? (
                             <img
@@ -124,7 +124,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
                         </div>
                       
                         <div className="min-w-0 flex-1">
-                          <h3 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-0.5 sm:mb-1 break-words">
+                          <h3 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-0.5 sm:mb-1 break-words leading-tight">
                             {exp.company}
                           </h3>
                           <p className="text-black/90 text-sm sm:text-base md:text-lg lg:text-xl font-semibold break-words">
@@ -132,7 +132,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
                           </p>
                         </div>
                       </div>
-                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-black/70 group-hover:text-black transition-colors flex-shrink-0" />
+                      <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-black/70 group-hover:text-black transition-colors flex-shrink-0 self-end sm:self-auto" />
                     </div>
 
                     <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3 md:mb-4 text-black/80">
@@ -140,7 +140,12 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
                       <span className="text-xs sm:text-sm md:text-base font-medium">{exp.period}</span>
                     </div>
 
-                    <p className="text-black/90 text-s sm:text-s md:text-base lg:text-base leading-relaxed mb-3 sm:mb-4 md:mb-6 text-justify line-clamp-3 sm:line-clamp-none">
+                    <p className="text-black/90 text-sm md:text-base lg:text-base leading-relaxed mb-3 sm:mb-4 md:mb-6 text-left sm:text-justify"
+                    style={{
+                      textAlign: 'justify',
+                      textJustify: 'inter-word'
+                    }}
+                    >
                       {exp.description}
                     </p>
 
