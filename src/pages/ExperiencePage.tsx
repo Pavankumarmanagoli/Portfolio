@@ -16,17 +16,17 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       position: 'AI Engineer (Intern)',
       period: 'Apr 2026 - Present',
        logo: NCSchultzllcLogoImg,
-      description:'As an AI Engineer, I build an internal AI system for a financial services business with over 18,700 leads. I develop multiple AI agents that automatically research leads, score and categorize them, prepare personalized outreach messages, and check content for compliance. I work closely with the business owner to find where manual work slows the team down and and automate those repetitive steps with simple, practical AI solutions, so the team can focus on calls and relationships instead of repetitive tasks.',
-      highlights: ['AI Agents', 'Workflow Automation', 'LLM', 'Prompt Engineering', 'Python', 'Generative AI'],
+      description:'As an AI Engineer, I build an internal AI system for a financial services business with over 18,700 leads. I develop multiple AI agents that automatically research leads, score and categorize them, prepare personalized outreach messages, and check content for compliance. I work closely with the business owner and key stakeholders, to find where manual work slows the team down and and automate those repetitive steps with simple, practical AI solutions, so the team can focus on calls and relationships instead of repetitive tasks.',
+      highlights: ['Python','AI Agents', 'Workflow Automation', 'LLM', 'Prompt Engineering','Generative AI'],
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
     {
       company: 'iiterate Technologies GmbH',
-      position: 'Data Scientist (Intern)',
+      position: 'AI Engineer (Intern)',
       period: 'Jan 2025 - Dec 2025',
        logo: iiterateLogoImg,
-      description: 'During my internship at iiterate Technologies GmbH, I developed a Retrieval-Augmented Generation (RAG) system for a regional knowledge portal, transforming REST API content into a structured knowledge base stored in MongoDB to enable semantic search and question answering. I implemented the retrieval pipeline in Python using LangChain, OpenAI embeddings, and FAISS, optimizing chunking strategies and retrieval parameters to improve response relevance. To ensure system reliability, I designed an evaluation framework using RAGAS and DeepEval, improving faithfulness from 0.61 to 0.84 and relevance from 0.67 to 0.89 through metric-driven optimization. I also built a Streamlit interface for real-time interaction and deployed the containerized application on AWS (ECR/EC2) using Docker and GitHub Actions CI/CD. In addition, I contributed to ETL pipelines for a multimodal AI project, preparing structured datasets from medical documents and imaging data stored in AWS S3..',
-      highlights: ['Python', 'NoSQL', 'RAG', 'LLM', 'NLP', 'PyTorch', 'AWS', 'Docker'],
+      description: 'During my internship at iiterate Technologies GmbH, I developed a Retrieval-Augmented Generation (RAG) system for a regional knowledge portal, transforming REST API content into a structured knowledge base stored in MongoDB to enable semantic search and question answering. I implemented the retrieval pipeline in Python using LangChain, OpenAI embeddings, and FAISS, optimizing chunking strategies and retrieval parameters to improve response relevance. To ensure system reliability, I designed an evaluation framework using RAGAS and DeepEval, improving faithfulness from 0.61 to 0.84 and relevance from 0.67 to 0.89 through metric-driven optimization. I also built a Streamlit interface for real-time interaction and deployed the containerized application on AWS (ECR/EC2) using Docker and GitHub Actions CI/CD. In addition, I contributed to ETL pipelines for a multimodal AI project, preparing structured datasets from medical documents and imaging data stored in AWS S3.',
+      highlights: ['Python', 'NoSQL', 'RAG', 'LLM', 'NLP', 'PyTorch', 'AWS', 'Docker', 'Generative AI'],
       companyUrl: 'https://www.iiterate.de/',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
@@ -45,8 +45,8 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       position: 'Data Analyst',
       period: 'Jan 2023 - Aug 2023',
       logo: 'https://hcltech.imgix.net/sites/default/files/images/hcltech-logo.webp?upscale=true',
-      description: 'Working with a US-based e-commerce client at HCL Technologies, I focused on transforming complex operational data into meaningful business insights. I maintained and improved ETL pipelines that integrated ERP, CRM, and logistics data into centralized analytics systems. I developed dbt models on Snowflake to standardize KPI calculations and ensure reliable reporting across teams. Using Python and SQL, I analyzed large datasets to evaluate marketing campaigns and identify revenue drivers. I also built Tableau dashboards that visualized revenue trends, fulfillment performance, and customer behavior, enabling stakeholders to make data-driven strategic decisions.',
-      highlights: ['Python', 'SQL', 'ETL', 'Tableau', 'Snowflake', 'dbt'],
+      description: 'Working with a US-based e-commerce client at HCL Technologies, I focused on transforming complex operational data into meaningful business insights. I maintained and improved ETL pipelines that integrated ERP, CRM, and logistics data into centralized analytics systems. I developed dbt models on Snowflake to standardize KPI calculations and ensure reliable reporting across teams. Using Python and SQL, I analyzed large datasets to evaluate marketing campaigns and identify revenue drivers. I also built PowerBI dashboards that visualized revenue trends, fulfillment performance, and customer behavior, enabling stakeholders to make data-driven strategic decisions.',
+      highlights: ['Python', 'SQL', 'ETL', 'PowerBI', 'Snowflake', 'dbt'],
       companyUrl: 'https://www.hcltech.com/de-de',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
@@ -56,7 +56,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
       period: 'Dec 2021 - Jan 2023',
       logo: grayradiantLogoImg,
       description: 'I worked as a Data Analyst where I built scalable ETL pipelines to integrate data from multiple operational systems into a centralized analytics environment. I automated data ingestion workflows using Power Automate and Azure Data Factory, improving data availability and reducing manual processing. Using Databricks and PySpark, I performed large-scale data transformations including cleaning, normalization, and deduplication to ensure data quality. I also designed interactive BI dashboards that visualized key logistics KPIs, enabling stakeholders to monitor operational performance and make data-driven decisions. My work focused on building reliable data pipelines and analytical models that supported efficient reporting and business insights.',
-      highlights: ['Python', ' PostgreSQL ', 'PowerBI', 'Azure', 'Power Automate'],
+      highlights: ['Python', 'SQL ','ETL', 'PowerBI', 'Azure', 'Power Automate'],
       companyUrl: 'https://graysonsolutions.net/index.html',
       color: 'bg-gradient-br from-gray-300 to-white-600'
     },
@@ -89,7 +89,7 @@ export default function ExperiencePage({ onBack }: ExperiencePageProps) {
           <div className="w-12 sm:w-16 md:w-20 h-1 bg-blue-600 mb-6 sm:mb-8 md:mb-12"></div>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 mb-8 sm:mb-12 lg:mb-16 text-justify leading-relaxed">
-            Around 3 years of professional development experience, working with cutting-edge technologies
+            Around 3+ years of professional experience, working with cutting-edge technologies
             and collaborating with talented teams to deliver exceptional digital solutions.
           </p>
 

@@ -1,6 +1,10 @@
 import { ExternalLink, Github } from 'lucide-react';
 import stosImage from './stos.png';
 import ragAiImage from './rag_ai.png';
+import AzureImage from './AZURE.png';
+import Agent from './Agent.png';
+import waste from './waste.png';
+import Bio from './Bio.png';
 import customerChurnImage from './customer_churn.png';
 import eRetailImage from './e_retail.png';
 import abImage from './a_b.png';
@@ -17,9 +21,30 @@ export default function Projects() {
     {
       title: 'NeuroHire : Neural Semantic Matching Protocol for Real Time Job Interoperability',
       description: 'The system uses LLM-based semantic analysis to summarize resumes and match candidate profiles with relevant job opportunities in real time.',
-      tags: ['Python', 'LLMs', 'LangChain', 'NLP', 'API Integration', 'Streamlit'],
+      tags: ['Python', 'LLMs', 'LangChain', 'NLP', 'API Integration', 'Streamlit','MCP'],
       image: ragAiImage,
       github: 'https://github.com/Pavankumarmanagoli/NeuroHire_Neural-Semantic-Matching-Protocol-for-Real-Time-Job-Interoperability'
+    },
+    {
+      title: 'Azure Multimodal Compliance Orchestrator⁠',
+      description: 'The platform combines OCR, semantic retrieval, and AI-generated reporting to transform multimodal documents into structured compliance reports.',
+      tags: ['Python', 'Azure OpenAI', 'LangGraph', 'FastAPI', 'Pydantic', 'LangSmith'],
+      image: AzureImage,
+      github: 'https://github.com/Pavankumarmanagoli/Azure-Multi-Modal-Compliance-Orchestrator'
+    },
+    {
+      title: 'Biomedical-RAG : RAG-Approach-on-SPIN',
+      description: 'Bridges PubMed literature and large language models to deliver context-aware answers for biomedical and healthcare-related queries.',
+      tags: ['Python', 'SBERT', 'FAISS', 'Mistral AI', 'MongoDB', 'Streamlit', 'Neo4j'],
+      image: Bio,
+      github: 'https://github.com/Pavankumarmanagoli/Biomedical-RAG'
+    },
+    {
+      title: 'Multi-Agent-IT-Support-System',
+      description: 'Coordinates multiple AI agents to classify support requests, retrieve relevant knowledge, and route issues through predefined support workflows.',
+      tags: ['Python', 'AutoGen', 'Azure OpenAI', 'Azure AI Search', 'OpenAI Embeddings', 'Streamlit'],
+      image: Agent,
+      github: 'https://github.com/Pavankumarmanagoli/Multi-Agent-IT-Support-System'
     },
     {
       title: 'Airflow Sales ETL Pipeline',
@@ -29,11 +54,11 @@ export default function Projects() {
       github: 'https://github.com/Pavankumarmanagoli/Airflow-Sales-ETL-Pipeline'
     },
     {
-      title: 'Customer Segmentation for Retail E-Commerce',
-      description: 'End-to-end workflow for segmenting customers of an online retail business. The analysis cleans and explores transactional data, derives Recency, Frequency and Monetary (RFM) features, and applies K-Means clustering to uncover actionable customer groups.',
-      tags: ['Python', 'Data Visualization', 'Scikit-Learn'],
-      image: eRetailImage,
-      github: 'https://github.com/Pavankumarmanagoli/Customer-Segmentation-for-Retail-E-Commerce-using-RFM-and-K-Means-Clustering'
+      title: 'Smart Waste Vision System',
+      description: 'Classifies waste images into different categories using deep learning models to promote efficient and sustainable waste management.',
+      tags: ['Python', 'TensorFlow', 'CNN','Computer Vision','OpenCV','Streamlit'],
+      image: waste,
+      github: 'https://github.com/Pavankumarmanagoli/Smart-Waste-Vision-System'
     },
     {
       title: 'A/B Testing on Marketing Campaigns',

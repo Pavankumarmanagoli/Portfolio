@@ -6,6 +6,9 @@ import snowflakeLogo from './snow.png';
 import noSqlLogo from './NoSQL.png';
 import dbtLogo from './DBT.png';
 import etlLogo from './ETL3.png';
+import power from './power.png';
+import LLM from './LLM.png';
+import AWS from './Aws.png';
 import pySparkLogo from './PySpark.png';
 import aiAgentLogo from './AIagent.png';
 import dockerLogo from './docker.jpg';
@@ -27,38 +30,6 @@ export default function Skills() {
       logo: noSqlLogo,
     },
     {
-      title: 'Power BI',
-      logo: powerBiLogo,
-    },
-    {
-      title: 'Statistics',
-      logo: statsLogo,
-    },
-    {
-      title: 'DBT',
-      logo: dbtLogo,
-    },
-    {
-      title: 'ETL',
-      logo: etlLogo,
-    },
-    {
-      title: 'Snowflake',
-      logo: snowflakeLogo,
-    },
-    {
-      title: 'Airflow',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg',
-    },
-    {
-      title: 'PySpark',
-      logo: pySparkLogo,
-    },
-    {
-      title: 'Azure',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
-    },
-    {
       title: 'Machine Learning',
       logo: mlLogo,
     },
@@ -71,9 +42,49 @@ export default function Skills() {
       logo: 'https://cdn-icons-png.flaticon.com/512/4712/4712100.png',
     },
     {
-      title: 'AI Agent',
+      title: 'AI Agents',
       logo: aiAgentLogo,
-      size: 80,
+      size: 60,
+    },
+    {
+      title: 'Prompt Engineering',
+      logo: power,
+    },
+    {
+      title: 'LLM Evaluation',
+      logo: LLM,
+    },
+   {
+      title: 'Power BI',
+      logo: powerBiLogo,
+    },
+    {
+      title: 'Power Automate',
+      logo: powerAutomateLogo,
+    },
+    {
+      title: 'Statistics',
+      logo: statsLogo,
+    },
+    {
+      title: 'Airflow',
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg',
+    },
+    {
+      title: 'DBT',
+      logo: dbtLogo,
+    },
+    {
+      title: 'Snowflake',
+      logo: snowflakeLogo,
+    },
+    {
+      title: 'ETL',
+      logo: etlLogo,
+    },
+    {
+      title: 'PySpark',
+      logo: pySparkLogo,
     },
     {
       title: 'Docker',
@@ -84,8 +95,12 @@ export default function Skills() {
       logo: gitlabLogo,
     },
     {
-      title: 'Power Automate',
-      logo: powerAutomateLogo,
+      title: 'Azure',
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
+    },
+    {
+      title: 'AWS',
+      logo: AWS,
     },
   ];
 
